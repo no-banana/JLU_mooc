@@ -1,0 +1,24 @@
+server:
+  servlet:
+    context-path: /content # 所有内容管理请求接口的根路径
+  port: 63040
+#微服务配置
+spring:
+  application:
+    name: content-api
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.155.129:3306/JLU_mooc?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    username: root
+    password: root
+# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+
+# 配置swagger生成接口文档的扫描包路径
+swagger:
+  title: "JLU_mooc内容管理系统"
+  description: "该系统用于对课程相关信息进行管理"
+  base-package: com.jlu_mooc.content
+  enabled: true
+  version: 1.0.0

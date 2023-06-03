@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.jlu_mooc</groupId>
+        <artifactId>JLU_mooc_content</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+         <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.jlu_mooc</groupId>
+    <artifactId>JLU_mooc_content_model</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>JLU_mooc_content_model</name>
+    <description>JLU_mooc_content_model</description>
+    <dependencies>
+        <dependency>
+            <groupId>com.jlu_mooc</groupId>
+            <artifactId>JLU_mooc_base</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-annotation</artifactId>
+            <version>${mybatis-plus-boot-starter.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-core</artifactId>
+            <version>${mybatis-plus-boot-starter.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
+</project>

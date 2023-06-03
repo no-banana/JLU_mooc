@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.jlu_mooc</groupId>
+        <artifactId>JLU_mooc_parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../JLU_mooc_parent</relativePath> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.jlu_mooc</groupId>
+    <artifactId>JLU_mooc_content</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>JLU_mooc_content</name>
+    <description>JLU_mooc_content</description>
+    <modules>
+        <module>JLU_mooc_content_model</module>
+        <module>JLU_mooc_content_service</module>
+    </modules>
+    <packaging>pom</packaging>
+
+</project>
